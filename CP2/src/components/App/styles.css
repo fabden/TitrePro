@@ -1,0 +1,109 @@
+
+
+@font-face {
+  font-family: "SexyBeauty";
+  src: url('../../assets/fonts/SexyBeauty.ttf')
+ }
+
+@font-face {
+  font-family: "titilingBd";
+  src: url('../../assets/fonts/builtTitlingBd.ttf')
+ }
+
+.fond_gris{
+ height: 90vh;
+ width: 15vw;
+ background-color: #5a6161;
+ border-radius: 0 0 500px 50px;
+}
+
+.fond_vert{
+height: 50vh;
+width: 40vw;
+background-color: #6d973e;
+}
+
+.imgPlat{ 
+  width: 5vh;
+  height: auto;
+  z-index: 2;
+}
+
+
+.header_titre1{
+   font-family: "titilingBd";
+   color: white;   
+ }
+
+ .header_titre2{
+  font-family: "SexyBeauty"; 
+  transform: rotate(-4deg); 
+ }
+
+ .header_titre3{
+  font-family: "titilingBd";
+  color: white;    
+ }
+.imgelemt{
+  top: 0;
+  right: 0;
+  width: 5vh;
+  height: auto;
+  margin-top: -30%;
+  z-index: 2;
+}
+.divImage{
+  margin-top: -25%;
+}
+
+.contact{
+  background-color: #5a6161;
+  padding: 1rem 0;
+  border-radius: 20px;
+  font-family: "titilingBd";
+  color: white;
+  font-size: 3vw;
+  line-height: 50px;
+}
+.contact_span{
+  color: #ded720;
+}
+.contact_header{
+  background-color: #6d973e;
+  color: white;
+  font-family: "titilingBd";
+  border-radius: 0 0 10px 10px;
+  
+}
+.contact_app{
+  height: 250px;
+}
+
+.item_titre {
+color:#6d973e;
+font-family: "titilingBd";
+}
+.item_descrition{
+  font-family: "titilingBd";
+}
+.item_prix_text{
+  font-family: "titilingBd";
+  color:white;
+  background-color: #362116;
+  border-radius: 15px 0 0 15px;  
+}
+.item_prix_number{
+  font-family: "titilingBd";
+  color:white;
+  background-color: #6d973e; 
+}
+.divPromo{
+  font-family: "titilingBd";
+  color:white;
+  background-color: #6d973e;
+  top: -35px;
+  right: 0;
+}
+
+
+@import '../../../node_modules/bootstrap/scss/bootstrap.scss';
