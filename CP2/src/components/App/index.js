@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 // == Import npm
 import React from 'react';
 import Item from '../Item';
@@ -24,22 +25,19 @@ const App = () => (
         <div className="col-md-3 order-md-2" />
         <div className="col-md-9  order-md-1">
           <h1 className="header_titre1 display-3">
-          Restaurant
+            Restaurant
             <span className="row justify-content-center header_titre2 m-n2">
-          multiplats
+              multiplats
             </span>
           </h1>
           <p className="header_titre3 display-4 mb-5">
-          Choisi ton plat preferé
+            Choisi ton plat preferé
           </p>
         </div>
       </header>
-      <div className="row justify-content-center align-items-end divImage pt-3  d-none d-md-flex position-relative mr-3">
-        <div className="col-md-8 text-right ">
-          <img className="img-fluid col-md-8 " src={imgPlat} />
-          <img className="col-md-10 position-absolute imgelemt img-fluid" src={imgelemt} />
-        </div>
-        <img className="img-fluid col-md-4 mt-2" src={imgChef} />
+      <div className="row divImage d-none d-md-flex align-items-end ">
+        <img className="col-md-8 position-absolute  imgPlat" src={imgPlat} />
+        <img className="col-md-4 position-absolute imgChef" src={imgChef} />
       </div>
       <div className="row justify-content-center col">
         <div className="col-md-8 mt-5 ">

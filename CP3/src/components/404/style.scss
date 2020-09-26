@@ -1,0 +1,14 @@
+.notFound {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  font-size: xx-large;
+  color: #f0f;
+  font-size: 9em;
+  font-weight: 900;
+  animation: example 12s linear 0s infinite;        
+  }
+
+@keyframes example {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+  }     

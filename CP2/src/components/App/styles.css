@@ -44,16 +44,15 @@ background-color: #6d973e;
   font-family: "titilingBd";
   color: white;    
  }
-.imgelemt{
-  top: 0;
-  right: 0;
-  width: 5vh;
-  height: auto;
-  margin-top: -30%;
-  z-index: 2;
+
+.imgPlat{
+  height: 25vw;  
+}
+.imgChef{ 
+  right: 5vh;
 }
 .divImage{
-  margin-top: -25%;
+  height: 25vw;
 }
 
 .contact{

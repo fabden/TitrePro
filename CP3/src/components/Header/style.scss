@@ -1,0 +1,16 @@
+@import 'src/styles/vars';
+
+.menu {
+  text-align: center;
+  padding: $gutter;
+  border-bottom: 1px solid $alt-color;
+
+  &__link {
+    margin: 0 1rem;
+    cursor: pointer;
+    color: $dark-color;
+    &.active, &:hover {
+      color: $primary-color;
+    }
+  }
+}
