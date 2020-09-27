@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-props-no-multi-spaces */
 // == Import npm
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
